@@ -9,7 +9,7 @@ const PublicationsSection = () => {
   const publication = {
     title: "Smart Classification of Fruits and Vegetables using CNN and Machine Learning",
     journal: "International Journal of Scientific Research in Engineering and Management (IJSREM)",
-    date: "2024",
+    date: "2025",
     description:
       "Published research on using Convolutional Neural Networks for classifying fruits and vegetables based on image data.",
     link: "https://doi.org/10.55041/IJSREM47182",

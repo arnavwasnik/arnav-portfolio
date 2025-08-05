@@ -18,7 +18,7 @@ const EducationSection = () => {
       period: "2021 - 2022",
       location: "Nagpur, Maharashtra", 
       description: "Completed HSC education with Science stream (PCMB+IT - Physics, Chemistry, Mathematics, Biology, Information Technology).",
-      //gpa: "85%",
+      gpa: "52%",
       status: "Completed"
     },
     {

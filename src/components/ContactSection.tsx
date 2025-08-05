@@ -79,7 +79,8 @@ const ContactSection = () => {
                 <Button
                   variant="outline"
                   className="border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-                  onClick={() => window.open("https://arnavwasnik.vercel.app", "_blank")}
+                  onClick={() => window.open("https://arnavwasnikportfolio.netlify.app", "_blank")}
+
                 >
                   Portfolio
                 </Button>
