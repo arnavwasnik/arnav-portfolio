@@ -9,9 +9,10 @@ const ExperienceSection = () => {
       period: "June 2024 - Present",
       location: "Remote",
       description:
-        "Contributing to live industry projects involving user-centric applications in the gaming and delivery domains. Focused on frontend development, authentication flows, scalable deployments, and admin dashboard integration.",
+        "Contributing to live industry projects involving user-centric applications in the gaming and delivery domains. Focused on frontend and backend development, authentication flows, scalable deployments, and admin dashboard integration.",
       achievements: [
         "Built responsive frontend interfaces using React and Tailwind CSS",
+        "Implemented real-time Backend with database design and Google Maps integration. ",
         "Implemented user authentication and form validations",
         "Deployed full-stack applications to VPS with PM2 and Nginx",
         "Assisted in building admin panel dashboards and handling production environments"

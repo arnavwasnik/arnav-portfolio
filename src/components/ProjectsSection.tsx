@@ -28,7 +28,7 @@ const ProjectsSection = () => {
     },
     {
       title: "Food Delivery App for Restaurants",
-      description:  "Worked on a Zomato-style delivery platform with four modules: user, restaurant, delivery agent, and admin panel. Built key flows in FlutterFlow for user, restaurant, and delivery apps, including order management and location tracking. Developed the admin panel using React with Firebase authentication and real-time database integration.",
+      description:  "Currently working in a team on an industry-grade, full-stack delivery platform with modules for User, Restaurant, Delivery Agent, and Admin Panel. Building key flows in FlutterFlow for ordering, real-time updates, and location tracking via Google Maps API.Designing the database schema and implementing a real-time Firebase backend (Auth, Firestore, Realtime DB).Developing frontend pages and contributing to the React-based Admin Panel with secure auth, analytics, and CRUD.Collaborating on backend APIs for smooth, optimized communication across all modules.",
       technologies: ["FlutterFlow", "Firebase", "React", "React-Inline","Google Maps API", "Cloud Functions"]
     }
   ];
