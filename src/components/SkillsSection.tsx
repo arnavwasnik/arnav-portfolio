@@ -38,7 +38,7 @@ skills: [
   ];
 
   const technologies =[
-  "React", "TypeScript", "Tailwind CSS", "Firebase", "FlutterFlow",
+  "Java","React", "TypeScript", "Tailwind CSS", "Firebase", "FlutterFlow",
   "Python", "SQL", "MongoDB", "Machine Learning", "Model Training",
   "Git", "Figma", "VPS Deployment", "REST APIs", "Generative AI"
 ]
