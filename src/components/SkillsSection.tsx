@@ -1,5 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaPython, FaGitAlt, FaDocker, FaFigma, FaVuejs, FaAws,  FaJava, FaBrain } from "react-icons/fa";
+import { SiTypescript,  SiFirebase,  SiNginx, SiMysql,SiHostinger, SiFlutter, SiTailwindcss, SiMongodb, SiPostgresql, SiGraphql, SiNextdotjs, SiJest, SiCypress, SiWebpack } from "react-icons/si";
+
+
+
 
 const SkillsSection = () => {
   const skillCategories = [
@@ -37,12 +42,30 @@ skills: [
     }
   ];
 
-  const technologies =[
-  "Java","React", "TypeScript", "Tailwind CSS", "Firebase", "FlutterFlow",
-  "Python", "SQL", "MongoDB", "Machine Learning", "Model Training",
-  "Git", "Figma", "VPS Deployment", "REST APIs", "Generative AI"
-]
-;
+  
+  const technologies = [
+   
+    { name: "JavaScript", icon: <FaJs className="text-[#F7DF1E]" /> },
+    { name: "TypeScript", icon: <SiTypescript className="text-[#3178C6]" /> },
+    { name: "React", icon: <FaReact className="text-[#61DAFB]" /> },
+    { name: "Java", icon: <FaJava className="text-[#007396]" /> },
+    { name: "Node.js", icon: <FaNodeJs className="text-[#339933]" /> },
+    { name: "Python", icon: <FaPython className="text-[#3776AB]" /> },
+    { name: "FlutterFlow", icon: <SiFlutter className="text-[#0465E3]" /> },
+    { name: "MongoDB", icon: <SiMongodb className="text-[#47A248]" /> },
+    { name: "MySQL", icon: <SiMysql className="text-[#4479A1]" /> },
+    { name: "AWS", icon: <FaAws className="text-[#FF9900]" /> },
+    { name: "Git", icon: <FaGitAlt className="text-[#F05032]" /> },
+    { name: "Tailwind CSS", icon: <SiTailwindcss className="text-[#06B6D4]" /> },
+    { name: "Next.js", icon: <SiNextdotjs className="text-foreground" /> },
+  { name: "Firebase", icon: <SiFirebase className="text-[#FFCA28]" /> },
+ { name: "Machine Learning", icon: <FaBrain className="text-pink-500" /> },
+ { name: "Hostinger", icon: <SiHostinger className="text-[#3E70BB]" /> },
+ { name: "Nginx", icon: <SiNginx className="text-[#3E70BB]" /> },
+ { name: "Figma", icon: <FaFigma className="text-[#F24E1E]" /> },
+
+
+  ];
 
   return (
     <section className="py-20 bg-secondary/20">
@@ -78,19 +101,23 @@ skills: [
           ))}
         </div>
 
-        {/* Technology Tags */}
-        <Card className="bg-card-gradient border-primary/20 shadow-card">
+         {/* Technology Tags */}
+         <Card className="bg-card-gradient border-primary/20 shadow-card">
           <CardContent className="p-8">
             <h3 className="text-2xl font-semibold mb-6 text-center text-accent">Technologies I Work With</h3>
-            <div className="flex flex-wrap gap-3 justify-center">
+            <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
               {technologies.map((tech, index) => (
-                <Badge 
-                  key={index} 
-                  variant="secondary"
-                  className="px-4 py-2 text-sm bg-secondary/50 hover:bg-primary hover:text-primary-foreground transition-all duration-300 cursor-default"
+                <div
+                  key={index}
+                  className="group flex flex-col items-center p-4 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-all duration-300 hover:scale-105 hover:shadow-glow cursor-default"
                 >
-                  {tech}
-                </Badge>
+                  <div className="text-3xl mb-2 group-hover:animate-bounce">
+                    {tech.icon}
+                  </div>
+                  <span className="text-xs font-medium text-center text-foreground">
+                    {tech.name}
+                  </span>
+                </div>
               ))}
             </div>
           </CardContent>
