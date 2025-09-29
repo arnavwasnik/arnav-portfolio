@@ -66,11 +66,12 @@ const projectsData = {
       longDescription: "This portfolio website showcases my skills and projects with a modern design approach. Built using React 18 with TypeScript for type safety, styled with Tailwind CSS for rapid UI development, and deployed using modern web technologies. The site features smooth animations, responsive design, dark theme, and optimized performance.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Lovable"],
       images: [
-        "/src/assets/projects/portfolio1 (4).png",
-        "/src/assets/projects/portfolio1 (1).png",
-         "/src/assets/projects/portfolio1 (2).png",
-         "/src/assets/projects/portfolio1 (3).png"
-      ],
+          "/projects/portfolio1 (4).png",
+  "/projects/portfolio1 (1).png",
+  "/projects/portfolio1 (2).png",
+  "/projects/portfolio1 (3).png"
+
+],
       liveUrl: "https://arnavwasnikportfolio.netlify.app/",
       githubUrl: "#",
       features: [
@@ -92,10 +93,10 @@ const projectsData = {
       description: "Developed machine-learning models to accurately predict the compressive strength of concrete based on mix proportions, water–cement ratio, and curing conditions (7, 14, 28 days). The project replaces slow, destructive 28-day lab tests with instant, non-destructive predictions to support real-time construction decisions.",
       technologies: ["Python", "Scikit-learn", "Pandas","Random Forest", "Matplotlib"],
       images: [
-         "/src/assets/projects/concrete1 (1).png",
-         "/src/assets/projects/concrete1 (2).png",
-         "/src/assets/projects/concrete1 (3).png",
-         "/src/assets/projects/concrete1 (4).png",
+         "/projects/concrete1 (1).png",
+         "/projects/concrete1 (2).png",
+         "/projects/concrete1 (3).png",
+         "/projects/concrete1 (4).png",
       ],
       liveUrl: "#",
       githubUrl: "https://github.com/arnavwasnik/concrete-strength-prediction",
@@ -112,11 +113,11 @@ const projectsData = {
       description:   "Built a deep-learning system to automatically classify fruits and vegetables from images for applications in agriculture, food processing, and retail. Used Convolutional Neural Networks with transfer learning (ResNet, Inception, EfficientNet) to achieve high accuracy even with limited data.",
       technologies: ["Python", "TensorFlow/Keras", "OpenCV", "NumPy", "Matplotlib"],
       images: [
-         "/src/assets/projects/fruitcnn1 (1).jpg",
-         "/src/assets/projects/fruitcnn1 (2).jpg",
-         "/src/assets/projects/fruitcnn1 (3).jpg",
-         "/src/assets/projects/fruitcnn1 (4).jpg",
-         "/src/assets/projects/fruitcnn1 (5).jpg"
+         "/projects/fruitcnn1 (1).jpg",
+         "/projects/fruitcnn1 (2).jpg",
+         "/projects/fruitcnn1 (3).jpg",
+         "/projects/fruitcnn1 (4).jpg",
+         "/projects/fruitcnn1 (5).jpg"
          
       ],
       liveUrl: "#",
@@ -136,10 +137,10 @@ const projectsData = {
       description:  "Built and maintained a full-stack gaming rewards platform where players compete in multiple real-time games and tournaments with live leaderboards. Started with a React + Tailwind front end, later migrated major flows to FlutterFlow for rapid iteration. Deployed and scaled the production app on a VPS using PM2 and Nginx, and personally managed domain setup and SSL to ensure smooth, always-on gameplay.",
       technologies: ["React", "Tailwind CSS", "Express.js", "Node.js", "MongoDB", "VPS", "PM2", "Nginx"],
       images: [
-        "/src/assets/projects/ful2win (1).png",
-        "/src/assets/projects/ful2win (2).png",
-        "/src/assets/projects/ful2win (3).png",
-        "/src/assets/projects/ful2win (4).png"
+        "/projects/ful2win (1).png",
+        "/projects/ful2win (2).png",
+        "/projects/ful2win (3).png",
+        "/projects/ful2win (4).png"
       ],
       liveUrl: "#",
       githubUrl: "#",
@@ -156,13 +157,13 @@ const projectsData = {
       description:  "Contributed as a full-stack developer to a food-delivery ecosystem with four products: User, Restaurant, and Delivery Agent apps (FlutterFlow) plus a React-based Admin Panel. Built and maintained login/registration/password flows, profile management, and real-time features across all apps using Firebase Authentication, Firestore, and Realtime Database. Implemented Google Maps–powered location fetch and live tracking, and configured the Google Cloud Console for API management. Added push notifications and custom dashboards in the Admin Panel for delivery-agent approvals and order status updates. Worked on both front-end and back-end logic, ensuring instant data sync whenever changes occurred in any app.",
       technologies: ["Flutter", "Firebase", "React", "React-Inline","Google Maps API", "Cloud Functions"],
       images: [
-        "/src/assets/projects/dastarkhan (1).jpg",
-        "/src/assets/projects/dastarkhan (6).jpg",
-         "/src/assets/projects/dastarkhan (2).jpg",
-          "/src/assets/projects/dastarkhan (3).png",
-          "/src/assets/projects/dastarkhan (5).jpg",
+        "/projects/dastarkhan (1).jpg",
+        "/projects/dastarkhan (6).jpg",
+         "/projects/dastarkhan (2).jpg",
+          "/projects/dastarkhan (3).png",
+          "/projects/dastarkhan (5).jpg",
          
-           "/src/assets/projects/dastarkhan (4).png"
+           "/projects/dastarkhan (4).png"
       ],
       liveUrl: "#",
       githubUrl: "#",
@@ -180,10 +181,10 @@ const projectsData = {
       description: "Contributed to an existing corporate website by implementing smooth-scroll animations, refining the color theme, and enhancing overall UX/UI. Added new content sections including management team profiles with bios, and made the site fully bilingual (English & Thai) by integrating Google Translate and handling layout adjustments for both languages. Performed end-to-end QA to ensure mobile responsiveness, accessibility, and design consistency across all pages.",
       technologies: ["React", "Tailwind CSS", "JavaScript", "Responsive Design", "Animations", "Multilingual"],
       images: [
-        "/src/assets/projects/retailcraft (1).png",
-          "/src/assets/projects/retailcraft (2).png",
-            "/src/assets/projects/retailcraft (3).png",
-              "/src/assets/projects/retailcraft (4).png"
+        "/projects/retailcraft (1).png",
+          "/projects/retailcraft (2).png",
+            "/projects/retailcraft (3).png",
+              "/projects/retailcraft (4).png"
       ],
       liveUrl: "https://retailcraftasia.com/",
       githubUrl: "#",
@@ -200,10 +201,10 @@ const projectsData = {
       description:  "Designed and developed a complete corporate website from scratch using React and TypeScript with a responsive, modern layout accented in emerald and gold. Implemented multiple fully-styled pages including Home, About, Services, Contact, Gallery, and Achievements, along with dynamic sections such as Vision & Mission, Areas of Expertise, Past Experience, Key Awards, and embedded YouTube videos. Integrated smooth animations, image galleries, and a functional contact form to create a professional, engaging online presence.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Responsive Design", "Gallery"],
       images: [
-        "/src/assets/projects/p3sglobal (1).png",
-         "/src/assets/projects/p3sglobal (4).png",
-        "/src/assets/projects/p3sglobal (2).png",
-        "/src/assets/projects/p3sglobal (3).png"
+        "/projects/p3sglobal (1).png",
+         "/projects/p3sglobal (4).png",
+        "/projects/p3sglobal (2).png",
+        "/projects/p3sglobal (3).png"
        
       ],
       liveUrl: "https://p3sglobal.com/",
@@ -222,10 +223,10 @@ const projectsData = {
       description: "Contributed to an existing Next.js + Payload CMS site by adding new content sections, cards, and containers, updating internal/external links, and refining overall UI/UX. Focused on maintaining a consistent design system and ensuring smooth CMS-driven updates without disrupting live content.",
       technologies: ["Next.js", "Payload CMS", "React", "Tailwind CSS", "Content Updates"],
       images: [
-        "/src/assets/projects/carlonis (1).png",
-        "/src/assets/projects/carlonis (2).png",
-        "/src/assets/projects/carlonis (3).png",
-        "/src/assets/projects/carlonis (4).png"
+        "/projects/carlonis (1).png",
+        "/projects/carlonis (2).png",
+        "/projects/carlonis (3).png",
+        "/projects/carlonis (4).png"
       ],
       liveUrl: "#",
       githubUrl: "https://github.com/arnavwasnik/carlonis",
